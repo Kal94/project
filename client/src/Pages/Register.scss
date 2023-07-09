@@ -1,0 +1,66 @@
+#register {
+
+    h1 {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .form-group {
+        max-width: 400px;
+        padding: 30px;
+        margin: 0 auto;
+        border: 1px dotted lightgray;
+        border-radius: 5px;
+
+        label {
+            font-size: 12px;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+            width: 100%;
+            height: 35px;
+            font-size: 21px;
+        }
+
+        button {
+            display: block;
+            box-sizing: border-box;
+            background-color: rgb(48,111,163);
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            height: 36px;
+            line-height: 27px;
+            min-width: 54px;
+            padding: 0 16px;
+            text-align: center;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: pre;
+
+
+            &:hover {
+                border-color: #dadce0;
+                box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+                color: #fff;
+            }
+
+            &:focus {
+                border-color: #4285f4;
+                outline: none;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
